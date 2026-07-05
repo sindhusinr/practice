@@ -11,3 +11,10 @@ def view(id):
         if e['id']==id:
             return e
     return {"message": "Employee not found"}
+
+@app.get("/display/")
+def view(id:int):
+    for e in emp:
+        if e["id"] ==id:
+            return e
+    return {"message":"Employee not found"}

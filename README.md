@@ -1,20 +1,39 @@
 # vscode
+
 vs practice codes
 
-Git comments
+## Git Commands
 
-git clone (repo)
+```bash
+git clone <repo>
 git add .
 git commit -m "Added new code"
 git push
+```
 
+## Remove Changes
 
-Remove 
+Discard all modified files:
 
-Discard all modified files  --      git reset --hard HEAD
-Remove untracked files ---    git clean -fd
+```bash
+git reset --hard HEAD
+```
 
+Remove untracked files:
 
-To check with repo is cloned -   git remote -v
+```bash
+git clean -fd
+```
 
-To pull the changes -----   git pull origin master
+## Check Remote Repository
+
+```bash
+git remote -v
+```
+
+## Pull Latest Changes
+
+```bash
+git pull origin master
+```
+``

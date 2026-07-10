@@ -1,15 +1,10 @@
-# vscode
-
-vs practice codes
-
 ## Git Commands
 
-```bash
-git clone <repo>
-git add .
-git commit -m "Added new code"
-git push
-```
+- git clone <repo>
+- git add .
+- git commit -m "Added new code"
+- git push origin main
+
 
 ## Remove Changes
 
@@ -27,13 +22,13 @@ git clean -fd
 
 ## Check Remote Repository
 
-```bash
+`
 git remote -v
-```
+git branch
+`
 
 ## Pull Latest Changes
 
-```bash
-git pull origin master
-```
-``
+`
+git pull origin main
+`

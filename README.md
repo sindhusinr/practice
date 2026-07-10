@@ -3,8 +3,21 @@
 - git clone <repo>
 - git add .
 - git commit -m "Added new code"
-- git push origin main
+- git push origin main 
 
+
+## Check Remote Repository
+
+```bash
+git remote -v
+git branch
+```
+
+## Pull Latest Changes
+
+```bash
+git pull origin main
+```
 
 ## Remove Changes
 
@@ -19,16 +32,7 @@ Remove untracked files:
 ```bash
 git clean -fd
 ```
-
-## Check Remote Repository
-
-`
-git remote -v
-git branch
-`
-
-## Pull Latest Changes
-
-`
-git pull origin main
-`
+To add git ignore 
+```bash
+New-Item .gitignore -ItemType File
+```

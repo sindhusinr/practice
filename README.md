@@ -1,10 +1,10 @@
 ## Git Commands
-
-- git clone <repo>
-- git add .
-- git commit -m "Added new code"
-- git push origin main 
-
+`
+git clone <repo>
+git add .
+git commit -m "Added new code"
+git push origin main 
+`
 
 ## Check Remote Repository
 
@@ -35,4 +35,9 @@ git clean -fd
 To add git ignore 
 ```bash
 New-Item .gitignore -ItemType File
+```
+
+To remove remote connection
+```bash
+git remote remove origin
 ```

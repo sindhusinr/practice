@@ -1,10 +1,10 @@
 ## Git Commands
-`
+```bash
 git clone <repo>
 git add .
 git commit -m "Added new code"
-git push origin main 
-`
+git push -u origin main 
+```
 
 ## Check Remote Repository
 

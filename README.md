@@ -12,6 +12,15 @@ git push -u origin main
 git remote -v
 git branch
 ```
+To add remote repository
+```bash
+git remote add origin <repo>
+```
+
+Remove the old remote repository:
+```bash
+git remote remove origin
+```
 
 ## Pull Latest Changes
 
@@ -35,9 +44,4 @@ git clean -fd
 To add git ignore 
 ```bash
 New-Item .gitignore -ItemType File
-```
-
-To remove remote connection
-```bash
-git remote remove origin
 ```
